@@ -1,8 +1,3 @@
-// Tiny stack VM for make.fun tiny-stack-vm-01 (ISA v1), written from scratch
-// from generator/subject/ISA.md and its reference VM vm.mjs. One run answers
-// every /input/<id>/program.bin, writing /output/<id>/stdout.bin + exit.txt.
-// All ten traps, the step/output limits and every wrapping/signed/unsigned
-// edge case follow the reference VM exactly.
 import { mkdirSync as A, readdirSync as B, readFileSync as C, writeFileSync as D } from 'node:fs';
 import { join as E } from 'node:path';
 function R(p, q) {
